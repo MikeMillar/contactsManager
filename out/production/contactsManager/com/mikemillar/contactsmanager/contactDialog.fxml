@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane  xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mikemillar.contactsmanager.DialogController">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label text="First Name:" />
+      <Label text="Last Name:" GridPane.columnIndex="1" />
+      <Label text="Phone Number:" GridPane.columnIndex="2" />
+      <TextField fx:id="firstNameField" GridPane.rowIndex="1" />
+      <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="phoneNumberField" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextArea fx:id="notesField" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="3" GridPane.rowIndex="3" />
+      <Label text="Notes:" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mikemillar.contactsmanager.Controller"
+    fx:id="mainBorderPane">
+
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu text="Contacts">
+                    <items>
+                        <MenuItem text="New Contact" onAction="#showNewContactDialog"/>
+                        <SeparatorMenuItem />
+                        <MenuItem text="Edit Contact" onAction="#showEditContactDialog"/>
+                        <SeparatorMenuItem />
+                        <MenuItem text="Delete Contact" onAction="#deleteContact"/>
+                        <SeparatorMenuItem/>
+                        <MenuItem text="Exit" onAction="#handleExit"/>
+                    </items>
+                </Menu>
+            </MenuBar>
+        </VBox>
+    </top>
+    <center>
+        <TableView fx:id="tableView">
+            <columns>
+                <TableColumn fx:id="firstNameCol" prefWidth="160.0" text="First Name" />
+                <TableColumn fx:id="lastNameCol" prefWidth="160.0" text="Last Name" />
+                <TableColumn fx:id="phoneNumberCol" prefWidth="160.0" text="Phone Number" />
+                <TableColumn fx:id="notesCol" prefWidth="320.0" text="Notes" />
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>

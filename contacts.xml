@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Beep</first_name>
+	<last_name>Boop</last_name>
+	<phone_number>555-555-5555</phone_number>
+	<notes>terst</notes>
+</contact>
+<contact>
+	<first_name>Bugs</first_name>
+	<last_name>Bunny</last_name>
+	<phone_number>123-555-4567</phone_number>
+	<notes>What's up Doc?</notes>
+</contact>
+<contact>
+	<first_name>Cassandra</first_name>
+	<last_name>Gutierrez</last_name>
+	<phone_number>505-410-3390</phone_number>
+	<notes>My Girlfriend</notes>
+</contact>
+<contact>
+	<first_name>Donald</first_name>
+	<last_name>Duck</last_name>
+	<phone_number>123-555-1234</phone_number>
+	<notes>Quack!</notes>
+</contact>
+<contact>
+	<first_name>Mike</first_name>
+	<last_name>Millar</last_name>
+	<phone_number>505-907-5897</phone_number>
+	<notes>Creater of app</notes>
+</contact>
+<contact>
+	<first_name>Road</first_name>
+	<last_name>Runner</last_name>
+	<phone_number>123-555-2222</phone_number>
+	<notes>Meep meep!</notes>
+</contact>
+<contact>
+	<first_name>Wile E.</first_name>
+	<last_name>Coyote</last_name>
+	<phone_number>123-555-9999</phone_number>
+	<notes>I thought I saw a Road Runner!</notes>
+</contact>
+</contacts>
